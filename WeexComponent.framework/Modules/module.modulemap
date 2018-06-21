@@ -1,0 +1,11 @@
+framework module WeexComponent {
+  umbrella header "WeexComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WeexComponent.Swift {
+    header "WeexComponent-Swift.h"
+    requires objc
+}
